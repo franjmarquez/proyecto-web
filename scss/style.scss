@@ -78,15 +78,6 @@ html {
     font-size: 50px;
 }
 
-.inPageLink {
-    color: #DB6F20;
-}
-
-.inPageLink:hover {
-    color: #d17f21;
-    transform: scale(1.1,1.1);
-}
-
 .borders {
     border: 1px solid #DB6F20;
 }
@@ -155,4 +146,34 @@ a {
         transform: scale(1.1,1.1);
         color: #D1CCC1;
     }
+}
+
+$styles: (
+  tColor: #db6f22,
+  center: center,
+  tFont: 65px
+);
+
+h2 {
+  color: map-get($styles, tColor);
+  text-align: map-get($styles, center);
+  font-size:map-get($styles, tFont);
+}
+
+@mixin fonts-size {
+    font-size: 15px;
+}
+
+h4 {
+    @include fonts-size;
+}
+
+.inPageLink {
+    color: #DB6F20;
+}
+
+.inPageLink:hover {
+    @extend .inPageLink;
+    color: #d17f21;
+    transform: scale(1.1,1.1);
 }
