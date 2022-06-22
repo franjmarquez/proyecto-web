@@ -1,5 +1,8 @@
-En el archivo style.scss sumé el SEO con las siguientes características:
-Descripción: 
-mediante un map-get ($styles) cambie el color de los títulos h2, 
-mediante un @mixin modifique el tamaño de las letras del footer h4, 
-y con un extend modifique los hover de los enlaces dentro de la pagina index.
+En el archivo index.html sumé el SEO con las siguientes características:
+Descripción: mediante la etiqueta meta name description en head agregue una descripcion de los premios ganados por el juego y de que trata: 
+"Winner of Best Game at the 2020 BAFTA Games Awards and named Game of the Year 2019 by Giant Bomb,
+ Polygon, Eurogamer, and The Guardian, Outer Wilds is a critically-acclaimed and award-winning
+  open world mystery about a solar system trapped in an endless time loop.".
+Palabras clave: mediante la etiqueta meta name keywords en head agruegue las siguientes palabras clave: "Outer Wilds, 
+Mobius Digital Games, Mobius Digital, Annapurna Interactive, space game, goty 2019, solar system game, steam, outer wilds steam, outer wilds console, outer wilds epic".
+Encabezado: para el encabezado se utilizo "Home" para indicar que es la pagina principal.
