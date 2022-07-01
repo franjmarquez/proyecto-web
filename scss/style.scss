@@ -132,10 +132,6 @@ table {
 
 .buttonColor {
     background-color: #ee7a27;
-    :hover {
-        background-color: crimson;
-        transform: scale(1.1,1.1);
-    }
 }
 
 .buttonColorActive {
@@ -185,5 +181,18 @@ h4 {
 .nopopup {
     :hover {
         transform: none;
+    }
+}
+
+
+@media screen and (max-width: 918px) {
+    h1 {
+        font-size: 90px;
+    }
+}
+
+@media screen and (max-width: 584px) {
+    .mainMenu {
+        font-size: 36px;
     }
 }
